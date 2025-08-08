@@ -1,7 +1,7 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+  include includable/head.pug
   body
+    include includable/header.pug
     block content
+    include includable/footer.pug
