@@ -1,0 +1,7 @@
+{
+  "name": "Voxsper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
